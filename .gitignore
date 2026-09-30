@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Node Modules & Build Output
+frontend/node_modules/
+frontend/dist/
+
+# Database & Environment Secrets
+*.db
+*.sqlite3
+.env
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ML Trained Models (Optional to ignore or track)
+ml/models/*.joblib
+
+# OS Metadata
+.DS_Store
+Thumbs.db
